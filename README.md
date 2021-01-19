@@ -1,5 +1,5 @@
-# Read Me Generator
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# Readme generator
+[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
 
 ## Description 
 it generates a read me
@@ -41,7 +41,9 @@ by testing it
 
 ## Questions
 My GitHub username is: mrosavourazeris
-You can find my GitHub profile by clicking this link: [My GitHub Profile](https://github.com/mrosavourazeris)
+
+You can find my GitHub profile by clicking this link: [My GitHub Profile](https://github.com/mrosavourazeris/Professional-README-Generator#tests)
+
 If you have any questions you can email me at: [My Email](test@test.com)
 
 
@@ -49,6 +51,7 @@ If you have any questions you can email me at: [My Email](test@test.com)
 
 ## License
 Licensed under 
+
  GNU GENERAL PUBLIC LICENSE
 Version 3, 29 June 2007
 

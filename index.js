@@ -119,15 +119,15 @@ ${tests}
 
 ## Questions
 My GitHub username is: ${GitUsername}
-You can find my GitHub profile by clicking this link: [My GitHub Profile](${GitHubURL})
-If you have any questions you can email me at: [My Email](${email})
+\nYou can find my GitHub profile by clicking this link: [My GitHub Profile](${GitHubURL})
+\nIf you have any questions you can email me at: [My Email](${email})
 
 
 ---
 
 ## License
 Licensed under 
-${license}
+\n${license}
 `
 }
 
