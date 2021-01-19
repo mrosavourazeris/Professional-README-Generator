@@ -29,6 +29,18 @@ const generateReadme = () =>
                 message: 'How do you use your application?',
                 name: 'usage'
             },
+
+            {
+                type: 'input',
+                message: 'How can someone contribute to this project',
+                name: 'contribute'
+            },
+        
+            {
+                type: 'input',
+                message: 'How can you test your application',
+                name: 'tests'
+            },
         
             {
                 type: 'list',
@@ -38,31 +50,34 @@ const generateReadme = () =>
             },
         
             {
-                type: 'input',
-                message: 'Badges',
-                name: 'badges'
+                type: 'list',
+                name: 'badges',
+                message: 'Please choose the license you picked so the badge can be added as well.',
+                choices: [userLicense.GeneralPublicBadge, userLicense.MITBadge, userLicense.MozillaBadge]
             },
 
             {
                 type: 'input',
-                message: 'Who contributed to this application',
-                name: 'contribute'
+                message: 'What is your GitHub username?',
+                name: 'GitUsername'
             },
-        
+
             {
                 type: 'input',
-                message: 'Tests',
-                name: 'tests'
+                message: 'Please add your GitHub URL',
+                name: 'GitHubURL'
             },
-        
+
             {
                 type: 'input',
-                message: 'Questions',
-                name: 'question'
+                message: 'What is your email address?',
+                name: 'email'
             },
+
         ])
-const userReadme = ({title, description, installation, usage, license, badges, contribute, tests, questions}) => {
+const userReadme = ({title, description, installation, usage, contribute, tests, license, badges, GitUsername, GitHubURL, email}) => {
     return`#${title}
+    ${badges}
 
     ## Description 
     ${description}
@@ -73,11 +88,10 @@ const userReadme = ({title, description, installation, usage, license, badges, c
     
     * [Installation](#installation)
     * [Usage](#usage)
-    * [License](#license)
-    * [Badges](#badges)
     * [Contributing](#contributing)
     * [Tests](#tests)
     * [Questions](#questions)
+    * [License](#license)
     
     
     ---
@@ -90,16 +104,7 @@ const userReadme = ({title, description, installation, usage, license, badges, c
     ## Usage 
     ${usage}
     
-    ---
-    
-    ## License
-    Licensed under the [${license}](license)
-    
-    ---
-    
-    ## Badges
-    ${badges}
-    
+
     ---
     
     ## Contributing
@@ -113,7 +118,16 @@ const userReadme = ({title, description, installation, usage, license, badges, c
     ---
     
     ## Questions
-    ${questions}
+    My GitHub username is: ${GitUsername}
+    You can find my GitHub profile by clicking this link: [My GitHub Profile](${GitHubURL})
+    If you have any questions you can email me at: [My Email](${email})
+
+
+    ---
+    
+    ## License
+    Licensed under 
+    ${license}
     `
 }
 
