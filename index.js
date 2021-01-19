@@ -1,5 +1,6 @@
 const fs = require('fs')
 const inquirer = require('inquirer')
+const userLicense = require('./license.js')
 
 
 const generateReadme = () =>
@@ -30,11 +31,18 @@ const generateReadme = () =>
             },
         
             {
-                type: 'input',
-                message: 'license',
-                name: 'license'
+                type: 'list',
+                name: 'license',
+                message: 'Please choose a license for your project.',
+                choices: [userLicense.GeneralPublicLicense, userLicense.MITLicense, userLicense.MozillaPublicLicense]
             },
         
+            {
+                type: 'input',
+                message: 'Badges',
+                name: 'badges'
+            },
+
             {
                 type: 'input',
                 message: 'Who contributed to this application',
@@ -43,14 +51,14 @@ const generateReadme = () =>
         
             {
                 type: 'input',
-                message: '',
-                name: ''
+                message: 'Tests',
+                name: 'tests'
             },
         
             {
-                type: '',
-                message: '',
-                name: ''
+                type: 'input',
+                message: 'Questions',
+                name: 'question'
             },
         ])
 const userReadme = ({title, description, installation, usage, license, badges, contribute, tests, questions}) => {
@@ -85,7 +93,7 @@ const userReadme = ({title, description, installation, usage, license, badges, c
     ---
     
     ## License
-    ${license}
+    Licensed under the [${license}](license)
     
     ---
     
