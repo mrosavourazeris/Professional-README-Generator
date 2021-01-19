@@ -1,55 +1,55 @@
-#Read Me Generator
-    [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# Read Me Generator
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-    ## Description 
-    This project will generate a read me file.
-    
-    ---
-    
-    ## Table of Contents
-    
-    * [Installation](#installation)
-    * [Usage](#usage)
-    * [Contributing](#contributing)
-    * [Tests](#tests)
-    * [Questions](#questions)
-    * [License](#license)
-    
-    
-    ---
-    
-    ## Installation
-    You can install this application by running the command node index.js
-    
-    ---
-    
-    ## Usage 
-    repeat of the answer above
-    
+## Description 
+it generates a read me
 
-    ---
-    
-    ## Contributing
-    by downloading this application
-    
-    ---
-    
-    ## Tests
-    by downloading and running this application
-    
-    ---
-    
-    ## Questions
-    My GitHub username is: mrosavourazeris
-    You can find my GitHub profile by clicking this link: [My GitHub Profile](https://github.com/mrosavourazeris)
-    If you have any questions you can email me at: [My Email](test@gmail.com)
+---
+
+## Table of Contents
+
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)
+* [License](#license)
 
 
-    ---
-    
-    ## License
-    Licensed under 
-     GNU GENERAL PUBLIC LICENSE
+---
+
+## Installation
+by installing it
+
+---
+
+## Usage 
+by using it
+
+
+---
+
+## Contributing
+by contributing to it
+
+---
+
+## Tests
+by testing it
+
+---
+
+## Questions
+My GitHub username is: mrosavourazeris
+You can find my GitHub profile by clicking this link: [My GitHub Profile](https://github.com/mrosavourazeris)
+If you have any questions you can email me at: [My Email](test@test.com)
+
+
+---
+
+## License
+Licensed under 
+ GNU GENERAL PUBLIC LICENSE
 Version 3, 29 June 2007
 
 Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
@@ -723,4 +723,3 @@ may consider it more useful to permit linking proprietary applications with
 the library.  If this is what you want to do, use the GNU Lesser General
 Public License instead of this License.  But first, please read
 <https://www.gnu.org/licenses/why-not-lgpl.html>.
-    

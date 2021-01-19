@@ -76,59 +76,59 @@ const generateReadme = () =>
 
         ])
 const userReadme = ({title, description, installation, usage, contribute, tests, license, badges, GitUsername, GitHubURL, email}) => {
-    return`#${title}
-    ${badges}
+    return`# ${title}
+${badges}
 
-    ## Description 
-    ${description}
-    
-    ---
-    
-    ## Table of Contents
-    
-    * [Installation](#installation)
-    * [Usage](#usage)
-    * [Contributing](#contributing)
-    * [Tests](#tests)
-    * [Questions](#questions)
-    * [License](#license)
-    
-    
-    ---
-    
-    ## Installation
-    ${installation}
-    
-    ---
-    
-    ## Usage 
-    ${usage}
-    
+## Description 
+${description}
 
-    ---
-    
-    ## Contributing
-    ${contribute}
-    
-    ---
-    
-    ## Tests
-    ${tests}
-    
-    ---
-    
-    ## Questions
-    My GitHub username is: ${GitUsername}
-    You can find my GitHub profile by clicking this link: [My GitHub Profile](${GitHubURL})
-    If you have any questions you can email me at: [My Email](${email})
+---
+
+## Table of Contents
+
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)
+* [License](#license)
 
 
-    ---
-    
-    ## License
-    Licensed under 
-    ${license}
-    `
+---
+
+## Installation
+${installation}
+
+---
+
+## Usage 
+${usage}
+
+
+---
+
+## Contributing
+${contribute}
+
+---
+
+## Tests
+${tests}
+
+---
+
+## Questions
+My GitHub username is: ${GitUsername}
+You can find my GitHub profile by clicking this link: [My GitHub Profile](${GitHubURL})
+If you have any questions you can email me at: [My Email](${email})
+
+
+---
+
+## License
+Licensed under 
+${license}
+`
 }
 
 generateReadme().then((answers) => fs.writeFile(`README.md`, userReadme(answers), err => {
