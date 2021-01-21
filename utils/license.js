@@ -1,4 +1,5 @@
-const GeneralPublicLicense = ` GNU GENERAL PUBLIC LICENSE
+const GeneralPublicLicense = ` 
+### GNU GENERAL PUBLIC LICENSE
 Version 3, 29 June 2007
 
 Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
@@ -675,9 +676,8 @@ Public License instead of this License.  But first, please read
 
 const GeneralPublicBadge = `[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)`
 
-const MITLicense = `MIT License
-
-Copyright (c) [year] [fullname]
+const MITLicense = `
+### MIT License
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -703,8 +703,8 @@ const MITBadge = `[![License: MIT](https://img.shields.io/badge/License-MIT-yell
 const MozillaBadge = `[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)`
 
 const MozillaPublicLicense = `
-Mozilla Public License Version 2.0
-==================================
+### Mozilla Public License Version 2.0
+
 
 1. Definitions
 --------------

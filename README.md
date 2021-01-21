@@ -1,8 +1,8 @@
-# Test
+# Professional README Generator
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description 
-Test
+In this project I designed an application to generate a readme file. The application accomplishes this by asking the user a series of questions and then adds the user's answers to the appropriate sections in the generated readme file. This application will help a user automate the creation of readme files so they can be generated quickly but still be professional.
 
 ---
 
@@ -19,32 +19,37 @@ Test
 ---
 
 ## Installation
-![Step1](Assets/Screenshots/1.png)
+1) Copy the HTTPS link from repository 
+2) Open the folder you wish to add this application to in your code editor. 
+3) Open the integrated terminal in the selected folder. 
+4) Run git clone and paste HTTPS link from repository. 
+5) Run "npm I" to install  the modules associated with this application.
 
 ---
 
 ## Usage 
-Test
+![Applicaton in use](Assets/Gifs/usage.gif)
+
 
 
 ---
 
 ## Contributing
-Test
+Anyone can contribute to this file by forking the repo, adding their code to the application, and then send me a pull request so the main branch can be updated.
 
 ---
 
 ## Tests
-Test
+[Test of the application](https://drive.google.com/file/d/1g2HWSRdUumDUXPgg7KzM2D2XM7D7I4pC/view?usp=sharing)
 
 ---
 
 ## Questions
-My GitHub username is: Test
+My GitHub username is: mrosavourazeris
 
-You can find my GitHub profile by clicking this link: [My GitHub Profile](Test)
+You can find my GitHub profile by clicking this link: [My GitHub Profile](https://github.com/mrosavourazeris)
 
-If you have any questions you can email me at: [My Email](Test)
+If you have any questions you can email me at: [My Email](test@test.com)
 
 
 ---
@@ -52,9 +57,8 @@ If you have any questions you can email me at: [My Email](Test)
 ## License
 Licensed under 
 
-MIT License
 
-Copyright (c) [year] [fullname]
+### MIT License
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
