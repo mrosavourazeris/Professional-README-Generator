@@ -29,6 +29,12 @@ const questionsForUser = () =>
 
             {
                 type: 'input',
+                message: 'What is the name of the screen shot you would like to add',
+                name: 'screenshot'
+            },
+
+            {
+                type: 'input',
                 message: 'How can someone contribute to this project',
                 name: 'contribute'
             },

@@ -1,6 +1,6 @@
 const userLicense = require('./license')
 
-const generateMarkdown = ({title, description, installation, usage, contribute, tests, license, GitUsername, GitHubURL, email}) => {
+const generateMarkdown = ({title, description, installation, usage, screenshot, contribute, tests, license, GitUsername, GitHubURL, email}) => {
   var licenseData;
   var licenseBadge;
   switch (license){
@@ -32,8 +32,10 @@ ${description}
 
 * [Installation](#installation)
 * [Usage](#usage)
+* [Screenshots](#screenshots)
 * [Contributing](#contributing)
 * [Tests](#tests)
+* [Deployed-Site](#deployed-site)
 * [Questions](#questions)
 * [License](#license)
 
@@ -49,6 +51,11 @@ ${installation}
 ![Applicaton in use](Assets/Gifs/${usage}.gif)
 
 
+
+---
+
+## Screenshots 
+![Finished product](Assets/Screenshots/${screenshot}.png)
 
 ---
 
