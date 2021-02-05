@@ -29,12 +29,6 @@ const questionsForUser = () =>
 
             {
                 type: 'input',
-                message: 'What is the name of the screen shot you would like to add',
-                name: 'screenshot'
-            },
-
-            {
-                type: 'input',
                 message: 'How can someone contribute to this project',
                 name: 'contribute'
             },
@@ -43,6 +37,12 @@ const questionsForUser = () =>
                 type: 'input',
                 message: 'Please add the link to the video of you testing this application.',
                 name: 'tests'
+            },
+
+            {
+                type: 'input',
+                message: 'Please enter the link to your deployed website',
+                name: 'deployed'
             },
         
             {
